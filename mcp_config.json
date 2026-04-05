@@ -1,0 +1,13 @@
+{
+    "mcpServers": {
+        "figma-dev-mode-mcp-server": {
+            "$typeName": "exa.cascade_plugins_pb.CascadePluginCommandTemplate",
+            "command": "npx",
+            "args": [
+                "mcp-remote",
+                "http://host.docker.internal:3846/mcp",
+                "--allow-http"
+            ]
+        }
+    }
+}
