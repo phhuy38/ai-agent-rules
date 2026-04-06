@@ -13,3 +13,7 @@ netsh interface portproxy add v4tov4 listenport=3846 listenaddress=0.0.0.0 conne
 ```
 nvm alias default node
 ```
+or
+```
+nvm alias default 24.x.x
+```
